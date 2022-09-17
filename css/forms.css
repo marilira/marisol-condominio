@@ -1,0 +1,56 @@
+main {
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 400px;
+    height: 350px;
+
+    background: #000000;
+    border-radius: 10px;
+}
+
+h2, p {
+    color: white;
+}
+p {
+    font-size: small;
+}
+h2 {
+    text-align: center;
+    margin: 25px 15px 25px 15px;
+    font-size: large;
+}
+.container {
+    margin: 5px 25px 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px 5px;
+    margin: 10px;
+    background-color: white;
+    color:#000000;
+    font-weight: 900;
+    line-height: 15px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+}
+
+input {
+    margin-bottom: 12px;
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+textarea {
+    border-radius: 5px;
+    width: 350px;
+    height: 80px;
+}
